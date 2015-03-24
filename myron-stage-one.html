@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- My notes for Stage 1, Work Session2 -->
+<head>
+  <title>Myron's Notes</title>
+  <link rel="stylesheet" href="myron-style.css">
+</head>
+<body>
+  <div class="concept">
+    <h1>Myron's Notebook - Stage 1 - March 23, 2015</h1>
+        <a href="#stage-0">Stage 0: The Basics of the Web and HTML</a>
+        <ul>
+          <li><a href="#stage-0-1">What is the World Wide Web?</a></li>
+          <li><a href="#stage-0-2">HTML</a></li>
+          <li><a href="#stage-0-3">Tags and Elements</a></li>
+          <li><a href="#stage-0-4">Inline vs Block Elements</a></li>
+        </ul>
+        <a href="#stage-1">Stage 1: Make your own Webpage</a>
+        <ul>
+          <li><a href="#stage-1-1">HTML & CSS</a></li>
+          <li><a href="#stage-1-2">HTML's "tree-like" Structure</a></li>
+          <li><a href="#stage-1-3">Boxifying a Design</a></li>
+          <li><a href="#stage-1-4">Code, Test, and Refine</a></li>
+          <li><a href="#stage-1-5">Avoiding Repetition</a></li>
+        </ul>
+  </div>
+  <h1>Important Concepts</h1>
+  <div class="lesson">
+    <h2 id="stage-0">Stage 0: The Basics of the Web and HTML</h2>
+    <div class="concept" id="stage-0-1">
+      <div class="concept-title">
+        What is the World Wide Web?
+      </div>
+          <p>
+          The World Wide web is a collection of HTML documents.  
+          HTML stands for Hypertext Markup Language.
+          Links between pages are called Hyperlinks.
+
+          There are many types of files that can be found on the web.  
+          <br><br>
+          These include:
+          <ul>
+              <li>- Plain text</li>
+              <li>- HTML</li>
+              <li>- images</li>
+              <li>- videos </li>
+              <li>- and music</li>
+          </ul>
+      </div>
+    <div class="concept" id="stage-0-2">
+      <div class="concept-title">
+        HTML
+      </div>
+          <p>
+          HTML is made up of<br>
+          <ul>
+          <li>- text content (what you see)</li>
+          <li>- markup (what it looks like)</li>
+          <li>- references to other documents (e.g. images & videos)</li>
+          </ul>  
+    <div class="concept" id="stage-0-3">
+      <div class="concept-title">
+        Tags and Elements
+      </div>
+      <div class="concept-description">
+        <p>
+          HTML documents are also made of HTML
+          <b>elements</b>. When writing HTML, we
+          tell browsers the type of each element by using HTML
+          <b>tags</b>.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="stage-0-4">
+      <div class="concept-title">
+        Inline vs Block Elements
+      </div>
+      <div class="concept-description">
+        <p>
+          HTML elements are either <b>inline</b>
+          or <b>block</b>. Block elements form
+          an "invisible box" around the content inside of them.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="lesson">
+    <h2 id="stage-1">Stage 1: Make your own Webpage</h2>
+    <div class="concept" id="stage-1-1">
+      <div class="concept-title">
+        HTML & CSS
+      </div>
+      <div class="concept-description">
+        <p>
+          HTML and CSS are both "languages".<br>
+          HTML controls the "structure"of a web page.<br>
+          CSS controls the "style" of a page (how it looks).<br>
+          When programmers talk about the "DOM" (Document Object Model).
+          they are talking about the tree-like structure of a page.<br>
+          <br>
+          CSS stands for "Cascading Style Sheets"
+          (specific syntax + rules - to control look of html page).
+          Inheritance is a key feature in CSS, 
+          it relies on the ancestor-descendant relationship to operate.
+          You can have several css files.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="stage-1-2">
+      <div class="concept-title">
+        The "tree-like structure" of HTML
+      </div>
+      <div class="concept-description">
+        <p>
+          The "tree-like structure" comes from the fact that HTML
+          elements can have other elements inside of them. You can
+          draw this relationship like a family tree. My mother
+          had multiple children. So did her mother, and so on...
+        </p>
+        <p>
+          In a browser, this structure shows up as a series
+          of nested boxes. There are boxes inside of boxes
+          inside of boxes, and so on...
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="stage-1-3">
+      <div class="concept-title">
+        Boxifying a Design
+      </div>
+      <div class="concept-description">
+        <p>
+          Everything on the web is boxes.
+          You define boxes with div tags.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="stage-1-4">
+      <div class="concept-title">
+        Code, Test, and Refine
+      </div>
+      <div class="concept-description">
+        <p>
+          Webdesign is an iterative process.<br><br>
+          Typically the process is:<br><br>
+          1.  Get the structure right. (by visually boxifying)<br>
+          2.  Then work on tags.<br>
+          3.  Size the boxes.<br>
+          4.  Position the boxes.<br>
+        </p>
+        <p>
+        You also want to:<br><br>
+          1.  Look for natural boxes.<br>
+          2.  Look for repeated styles & semantic elements.<br>
+          3.  Write your HTML.<br>
+          4.  Apply styles (from biggest to smallest).<br>
+          5.  Fix things.<br>
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="stage-1-5">
+      <div class="concept-title">
+        Avoiding Repetition
+      </div>
+      <div class="concept-description">
+        <p>
+          Avoiding repetition is important for a variety of reasons.
+        </p>
+        <p>
+          <b>Avoiding Errors:</b> When programmers <em>don't</em> avoid repetition, they will often have to do the same thing over and over. This may mean copy and pasting certain style attributes into many HTML elements or rewriting the same code (sometimes with minor differences) many times. This can lead to errors when the programmer decides to make a change to something. If they don't dilligently make that same change everywhere the repeated code appears, problems will arise.
+        </p>
+      </div>
+    </div>
+    </div>
+  </div>
+</body>
